@@ -1,0 +1,7 @@
+﻿2026-10-30T00:30:32.3465258Z ##[group]Run mkdir -p ../replay-receipt
+2026-10-30T00:30:32.3465674Z [36;1mmkdir -p ../replay-receipt[0m
+2026-10-30T00:30:32.3466288Z [36;1m/usr/bin/time -v lake env leanchecker --fresh BrenierMoment > ../replay-receipt/replay.log 2> ../replay-receipt/time.log[0m
+2026-10-30T00:30:32.3466939Z [36;1mgrep -q 'Exit status: 0' ../replay-receipt/time.log[0m
+2026-10-30T00:30:32.3467346Z [36;1mprintf 'PASS\n' > ../replay-receipt/status.txt[0m
+2026-10-30T00:30:32.3485886Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-30T00:30:32.3486241Z ##[endgroup]

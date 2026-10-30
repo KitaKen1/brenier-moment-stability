@@ -1,0 +1,24 @@
+﻿2026-10-30T01:04:51.4329588Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-30T01:04:51.4330038Z with:
+2026-10-30T01:04:51.4330254Z   name: replay-40978788813-1
+2026-10-30T01:04:51.4330510Z   path: replay-receipt/
+2026-10-30T01:04:51.4330752Z   retention-days: 90
+2026-10-30T01:04:51.4330987Z   if-no-files-found: warn
+2026-10-30T01:04:51.4331228Z   compression-level: 6
+2026-10-30T01:04:51.4331446Z   overwrite: false
+2026-10-30T01:04:51.4331669Z   include-hidden-files: false
+2026-10-30T01:04:51.4331913Z ##[endgroup]
+2026-10-30T01:04:51.6062679Z (node:3434) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-30T01:04:51.6063541Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-30T01:04:51.6135276Z With the provided path, there will be 3 files uploaded
+2026-10-30T01:04:51.6136247Z Artifact name is valid!
+2026-10-30T01:04:51.6136511Z Root directory input is valid!
+2026-10-30T01:04:51.9670373Z Beginning upload of artifact content to blob storage
+2026-10-30T01:04:51.9964726Z (node:3434) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-30T01:04:52.2083207Z Uploaded bytes 772
+2026-10-30T01:04:52.2659719Z Finished uploading artifact content to blob storage!
+2026-10-30T01:04:52.2660636Z SHA256 digest of uploaded artifact zip is 5521098181f929a7f957343a079ec6d93b7473eb1ff29fce3d8ce0b7b84298cf
+2026-10-30T01:04:52.2662119Z Finalizing artifact upload
+2026-10-30T01:04:52.7185046Z Artifact replay-40978788813-1.zip successfully finalized. Artifact ID 12945678502
+2026-10-30T01:04:52.7186387Z Artifact replay-40978788813-1 has been successfully uploaded! Final size is 772 bytes. Artifact ID is 12945678502
+2026-10-30T01:04:52.7187829Z Artifact download URL: https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813/artifacts/12945678502

@@ -1,14 +1,12 @@
 # Brenier moment stability proposed FC target verification
 
-Private verification was run on 30 October 2026 at commit
-`c83356bf7e1bc62b1a65044c0217a9c5752a870d`
-(private preflight).
-The proof build, compact FC-model check, sandboxed Comparator and six target axiom reports
-passed. The separate whole-environment fresh replay is still running; the full workflow is
-not yet recorded as passed. The first attempt built the proof successfully but exposed a missing
-build dependency for the original OpenAI comparison theorem; the CI build target was corrected
-without changing the proof sources. Public `main` CI is being started separately for this release;
-no completed public result is claimed yet. No
+Public verification [passed on 30 October 2026](https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813),
+testing commit `4871736bc0c348fd9e6a25d2f0e6e28892dbeeba`. The proof build, compact FC-model
+check, sandboxed Comparator, six target axiom reports, whole-environment fresh replay and final
+gate all passed. The original logs and artifacts are preserved in
+[ComparatorLog20261030](../ComparatorLog20261030/40978788813-attempt1/).
+The first private attempt exposed a missing build dependency for the original OpenAI comparison
+theorem; the CI build target was corrected without changing the proof sources. No
 Formal Conjectures PR has been created; the statement was proposed in
 [formal-conjectures issue 7197](https://github.com/google-deepmind/formal-conjectures/issues/7197).
 The setup follows the verification of

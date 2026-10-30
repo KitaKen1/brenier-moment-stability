@@ -1,5 +1,9 @@
 # Lean proof of sharp moment stability of Brenier maps
 
+> [!NOTE]
+> **Tentative version.** The Lean proofs have [passed public CI](https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813).
+> The statement and documentation are being refined; a finalized version will be available soon.
+
 For the Brenier maps of a log-concave source, the stability problem under a moment bound on one
 target is the following.
 
@@ -14,22 +18,24 @@ target is the following.
 > \omega_{p,\beta}(\delta)=\delta^{(p-2)/(3p-2)}[\log(e/\delta)]^{-2\beta/(3p-2)}.
 > ```
 >
-> 1. **Upper bound.** There are $`C>0`$ and $`0<\delta_0<1`$, depending only on
->    $`\rho,p,\beta`$, such that
+> **1. Upper bound.** There are $`C>0`$ and $`0<\delta_0<1`$, depending only on
+> $`\rho,p,\beta`$, such that
 >
->    ```math
->    \|T_\mu-T_\nu\|_{L^2(\rho)}\le C\,\omega_{p,\beta}(\delta)
->    ```
+> ```math
+> \|T_\mu-T_\nu\|_{L^2(\rho)}\le C\,\omega_{p,\beta}(\delta)
+> ```
 >
->    whenever $`M_{p,\beta}(\mu)\le1`$, $`\nu`$ has finite second moment and
->    $`0<\delta=W_2(\mu,\nu)\le\delta_0`$.
-> 2. **Sharpness.** For the uniform source $`\rho_0`$ on $`[0,1]\times[-1,1]^{d-1}`$ there is
->    $`c>0`$ such that for every sufficiently small $`\delta>0`$ there are two targets
->    $`\mu,\nu`$ with four atoms, both with $`M_{p,\beta}\le1`$, with $`W_2(\mu,\nu)=\delta`$
->    and $`\|T_\mu-T_\nu\|_{L^2(\rho_0)}\ge c\,\omega_{p,\beta}(\delta)`$.
-> 3. **Endpoint.** At $`p=2`$, $`\beta=0`$ there is no modulus: for $`\rho_0`$ there are
->    four-atom targets with second moments at most $`1`$, with $`W_2(\mu,\nu)`$ arbitrarily
->    small and $`\|T_\mu-T_\nu\|_{L^2(\rho_0)}\ge1/20`$.
+> whenever $`M_{p,\beta}(\mu)\le1`$, $`\nu`$ has finite second moment and
+> $`0<\delta=W_2(\mu,\nu)\le\delta_0`$.
+>
+> **2. Sharpness.** For the uniform source $`\rho_0`$ on $`[0,1]\times[-1,1]^{d-1}`$ there is
+> $`c>0`$ such that for every sufficiently small $`\delta>0`$ there are two targets
+> $`\mu,\nu`$ with four atoms, both with $`M_{p,\beta}\le1`$, with $`W_2(\mu,\nu)=\delta`$
+> and $`\|T_\mu-T_\nu\|_{L^2(\rho_0)}\ge c\,\omega_{p,\beta}(\delta)`$.
+>
+> **3. Endpoint.** At $`p=2`$, $`\beta=0`$ there is no modulus: for $`\rho_0`$ there are
+> four-atom targets with second moments at most $`1`$, with $`W_2(\mu,\nu)`$ arbitrarily
+> small and $`\|T_\mu-T_\nu\|_{L^2(\rho_0)}\ge1/20`$.
 >
 > Here $`W_2`$ is the quadratic Wasserstein distance and logarithms are natural. The moment
 > bound is imposed on $`\mu`$ only, and no positive lower bound on the density of $`\rho`$ is
@@ -226,28 +232,30 @@ second moment has a Brenier map from $`\rho`$, and this map is a limit in $`L^2(
 active maps (`exists_optimal_map_with_approximation` in
 [MomentStability.lean](lean/BrenierMoment/MomentStability.lean)). No limit potential is
 constructed. The steps are:
-- **Couplings against an active map.** Let $`T`$ be an active map of $`u`$ and let $`\pi`$ be a
-  coupling with first marginal $`\rho`$. The cost of comparing $`\pi`$ with the graph of $`T`$
-  is controlled by the Fenchel gap of $`u`$ integrated over $`\pi`$:
+**Couplings against an active map.** Let $`T`$ be an active map of $`u`$ and let $`\pi`$ be a
+coupling with first marginal $`\rho`$. The cost of comparing $`\pi`$ with the graph of $`T`$
+is controlled by the Fenchel gap of $`u`$ integrated over $`\pi`$:
 
-  ```math
-  \int|\mathrm{clip}_H y-\mathrm{clip}_H T(x)|^2\,d\pi(x,y)
-  \le24\,d\,H^2h\,B+\frac{4dH}{h}\int\bigl(u(x)+u^*(y)-\langle x,y\rangle\bigr)\,d\pi(x,y),
-  ```
+```math
+\int|\mathrm{clip}_H y-\mathrm{clip}_H T(x)|^2\,d\pi(x,y)
+\le24\,d\,H^2h\,B+\frac{4dH}{h}\int\bigl(u(x)+u^*(y)-\langle x,y\rangle\bigr)\,d\pi(x,y),
+```
 
-  where $`u^*`$ is the conjugate of $`u`$ over the closure of $`U`$. This is step 3 with the
-  supporting slope $`y`$ in place of a second active map, applied to the conditional laws of
-  $`\pi`$ ([PlanComparison.lean](lean/BrenierMoment/PlanComparison.lean)).
-- **Uniqueness.** Let active maps $`T_n`$ converge to $`T`$ in $`L^2(\rho)`$. A coupling of
-  $`\rho`$ and $`T_\#\rho`$ whose cost is at most that of the graph of $`T`$ has integrated gap
-  at most that of the graph, which tends to zero. Letting $`n\to\infty`$ and then $`h\to0`$
-  shows that the coupling is the graph of $`T`$. Hence $`T`$ is the Brenier map onto its law
-  ([LimitCertificate.lean](lean/BrenierMoment/LimitCertificate.lean)).
-- **Existence.** The images of $`\mu`$ under simple functions that converge to the identity are
-  finite targets. Their Brenier maps are active maps
-  ([FiniteTargets.lean](lean/BrenierMoment/FiniteTargets.lean)). By steps 2 and 3 and a tail
-  bound they form a Cauchy sequence in $`L^2(\rho)`$, and the limit pushes $`\rho`$ forward to
-  $`\mu`$ ([GeneralTargets.lean](lean/BrenierMoment/GeneralTargets.lean)).
+where $`u^*`$ is the conjugate of $`u`$ over the closure of $`U`$. This is step 3 with the
+supporting slope $`y`$ in place of a second active map, applied to the conditional laws of
+$`\pi`$ ([PlanComparison.lean](lean/BrenierMoment/PlanComparison.lean)).
+
+**Uniqueness.** Let active maps $`T_n`$ converge to $`T`$ in $`L^2(\rho)`$. A coupling of
+$`\rho`$ and $`T_\#\rho`$ whose cost is at most that of the graph of $`T`$ has integrated gap
+at most that of the graph, which tends to zero. Letting $`n\to\infty`$ and then $`h\to0`$
+shows that the coupling is the graph of $`T`$. Hence $`T`$ is the Brenier map onto its law
+([LimitCertificate.lean](lean/BrenierMoment/LimitCertificate.lean)).
+
+**Existence.** The images of $`\mu`$ under simple functions that converge to the identity are
+finite targets. Their Brenier maps are active maps
+([FiniteTargets.lean](lean/BrenierMoment/FiniteTargets.lean)). By steps 2 and 3 and a tail
+bound they form a Cauchy sequence in $`L^2(\rho)`$, and the limit pushes $`\rho`$ forward to
+$`\mu`$ ([GeneralTargets.lean](lean/BrenierMoment/GeneralTargets.lean)).
 
 **5. The rate.** Put $`\delta=W_2(\mu,\nu)`$ and
 $`\tau_\mu(H)=\int_{|y|>H}|y|^2\,d\mu(y)`$. Steps 2 to 4 give, for every $`H>0`$ and $`h>0`$,
@@ -384,16 +392,16 @@ compiled in the same way, without error, and its three targets agree with the ch
 ([local-verification.json](lean4web/local-verification.json)). The source-level checks, the
 copy check, the publication check and the Comparator input check pass.
 
-**Private CI (30 October 2026).** The Lake proof build in this directory layout, the compact
-FC-model comparison, sandboxed Lean Comparator and six target axiom reports passed at commit
-`c83356bf7e1bc62b1a65044c0217a9c5752a870d`
-(private preflight).
-The separate whole-environment fresh replay is still running; the full workflow is not yet
-recorded as passed. The tested proof sources are unchanged.
+**Public CI (30 October 2026): passed.** The proof build, compact FC-model comparison,
+sandboxed Lean Comparator, six target axiom reports and whole-environment fresh replay all
+passed in [run 40978788813](https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813),
+testing commit `4871736bc0c348fd9e6a25d2f0e6e28892dbeeba`.
+The proof source commit is `c028b1a002da7ef4bf9177a3b4abcf596a6ab1b3`.
+The original logs and artifacts are preserved in
+[ComparatorLog20261030](ComparatorLog20261030/40978788813-attempt1/).
 
-**Public verification:** the public workflow is being started for this release; no completed public
-CI result is claimed here. The complete standalone verification workflows and the hosted Lean4Web
-run remain unchecked. FC checkout compatibility is still pending; see the
+**Separate checks still pending:** the complete standalone verification workflows, hosted
+Lean4Web and upstream FC checkout compatibility; see the
 [Appendix](#appendix-verification-by-lean-comparator-on-github-ci-runner).
 <!-- END VERIFICATION STATUS -->
 
@@ -551,12 +559,12 @@ Lean Comparator and GitHub CI enable the following:
 
 ### Certification Within 90 days: CI results
 
-The public verification workflow is being started for this release. Its status is visible in
-[GitHub Actions](https://github.com/KitaKen1/brenier-moment-stability/actions/workflows/comparator.yml). A completed public result is not claimed until all required jobs pass;
-the tested commit and archived receipts will be recorded separately.
+The public verification workflow [passed on 30 October 2026](https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813),
+testing commit `4871736bc0c348fd9e6a25d2f0e6e28892dbeeba`. All required jobs succeeded:
+the proof build, Comparator, whole-environment fresh replay and final verification gate.
 
-Readers can then check the Comparator execution and the axiom audit in the CI logs for 90 days.
-In particular, `#print axioms` should report the three axioms for the three targets:
+Readers can inspect the Comparator execution and the axiom audit in the public CI logs.
+The `#print axioms` reports contain the three axioms for each target:
 
 ```text
 'BrenierStability.moment_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
@@ -567,9 +575,10 @@ In particular, `#print axioms` should report the three axioms for the three targ
 ### Certification After 90 days: archive
 
 After the [90-day retention period](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/download-workflow-artifacts)
-for CI logs and artifacts expires, readers inspect the same results in an archive. The run
-records, logs, artifacts and checksums of the public run will be kept in this repository under
-`ComparatorLogYYYYMMDD/`. No archive exists yet.
+for CI logs and artifacts expires, readers can inspect the same results in
+[ComparatorLog20261030/40978788813-attempt1](ComparatorLog20261030/40978788813-attempt1/).
+The archive contains the original logs and artifact ZIPs, extracted receipts, API metadata and
+SHA-256 checksums. Each artifact ZIP was checked against its GitHub digest before extraction.
 
 ### Reproduce the verification
 

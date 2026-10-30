@@ -1,0 +1,16 @@
+{
+  "challenge_module": "ComparatorChallenges.BrenierMomentStability",
+  "solution_module": "BrenierMoment.FCPresentation",
+  "theorem_names": [
+    "BrenierStability.moment_stability",
+    "BrenierStability.moment_rate_sharp",
+    "BrenierStability.no_modulus_at_second_moment"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

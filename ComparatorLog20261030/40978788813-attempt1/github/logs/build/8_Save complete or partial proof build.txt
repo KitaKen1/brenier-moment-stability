@@ -1,0 +1,13 @@
+﻿2026-10-30T00:27:09.4002254Z ##[group]Run actions/cache/save@v4
+2026-10-30T00:27:09.4002559Z with:
+2026-10-30T00:27:09.4002769Z   path: lean/.lake/build
+2026-10-30T00:27:09.4003131Z   key: brenier-fc-4871736bc0c348fd9e6a25d2f0e6e28892dbeeba-40978788813-1
+2026-10-30T00:27:09.4003534Z   enableCrossOsArchive: false
+2026-10-30T00:27:09.4003785Z ##[endgroup]
+2026-10-30T00:27:09.5150564Z (node:4528) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-30T00:27:09.5152301Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-30T00:27:09.5332455Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/brenier-moment-stability/brenier-moment-stability --files-from manifest.txt --use-compress-program zstdmt
+2026-10-30T00:27:10.6447681Z (node:4528) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-30T00:27:11.6363385Z Sent 37224448 of 53300586 (69.8%), 35.5 MBs/sec
+2026-10-30T00:27:12.2073979Z Sent 53300586 of 53300586 (100.0%), 32.3 MBs/sec
+2026-10-30T00:27:12.3419598Z Cache saved with key: brenier-fc-4871736bc0c348fd9e6a25d2f0e6e28892dbeeba-40978788813-1

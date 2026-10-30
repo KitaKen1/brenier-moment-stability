@@ -1,0 +1,6 @@
+'BrenierStability.moment_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierStability.moment_rate_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierStability.no_modulus_at_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierMoment.moment_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierMoment.moment_rate_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierMoment.no_modulus_at_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,19 @@
+﻿2026-10-30T00:17:57.8519555Z ##[group]Run bash comparator/prepare-runner.sh && bash comparator/add-swap.sh 4 20
+2026-10-30T00:17:57.8522061Z [36;1mbash comparator/prepare-runner.sh && bash comparator/add-swap.sh 4 20[0m
+2026-10-30T00:17:57.8545997Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-30T00:17:57.8547507Z ##[endgroup]
+2026-10-30T00:20:09.9928715Z info: downloading installer
+2026-10-30T00:20:10.5003132Z cores: 4
+2026-10-30T00:20:10.5003788Z                total        used        free      shared  buff/cache   available
+2026-10-30T00:20:10.5004427Z Mem:              15           0          13           0           1          14
+2026-10-30T00:20:10.5005086Z Swap:              2           0           2
+2026-10-30T00:20:10.5007245Z Filesystem      Size  Used Avail Use% Mounted on
+2026-10-30T00:20:10.5008133Z /dev/root       145G   21G  124G  15% /
+2026-10-30T00:20:10.5008525Z /dev/root       145G   21G  124G  15% /
+2026-10-30T00:20:10.5488116Z added 4 GB of swap on /
+2026-10-30T00:20:10.5509952Z                total        used        free      shared  buff/cache   available
+2026-10-30T00:20:10.5510778Z Mem:              15           0          13           0           1          14
+2026-10-30T00:20:10.5511312Z Swap:              6           0           6
+2026-10-30T00:20:10.5527567Z NAME              TYPE SIZE USED PRIO
+2026-10-30T00:20:10.5528291Z /swapfile         file   3G   0B   -1
+2026-10-30T00:20:10.5528805Z /swap-extra-12798 file   4G   0B   -1

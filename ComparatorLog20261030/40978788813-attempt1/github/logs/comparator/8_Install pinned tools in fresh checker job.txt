@@ -1,0 +1,35 @@
+﻿2026-10-30T00:31:26.3882384Z ##[group]Run bash comparator/install-tools.sh
+2026-10-30T00:31:26.3882776Z [36;1mbash comparator/install-tools.sh[0m
+2026-10-30T00:31:26.3900431Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-30T00:31:26.3900772Z env:
+2026-10-30T00:31:26.3901035Z   COMPARATOR_TOOLS: /home/runner/work/_temp/comparator-tools
+2026-10-30T00:31:26.3901364Z ##[endgroup]
+2026-10-30T00:31:26.6581170Z go: downloading github.com/urfave/cli/v3 v3.6.2
+2026-10-30T00:31:26.6624574Z go: downloading github.com/landlock-lsm/go-landlock v0.9.0
+2026-10-30T00:31:26.9056722Z go: downloading golang.org/x/sys v0.40.0
+2026-10-30T00:31:26.9058136Z go: downloading kernel.org/pub/linux/libs/security/libcap/psx v1.2.77
+2026-10-30T00:31:37.3325893Z info: downloading https://releases.lean-lang.org/lean4/v4.35.0-rc4/lean-4.35.0-rc4-linux.tar.zst
+2026-10-30T00:31:41.8467791Z info: installing /home/runner/.elan/toolchains/leanprover--lean4---v4.35.0-rc4
+2026-10-30T00:31:49.3530274Z info: lean4export: materializing new dependency
+2026-10-30T00:31:49.4466125Z info: lean4export: fetching revision '05d43a2bc773b40ecfdebb32294192a5ef756951' from https://github.com/leanprover/lean4export
+2026-10-30T00:31:50.1567787Z info: lean4export: checking out revision '05d43a2bc773b40ecfdebb32294192a5ef756951'
+2026-10-30T00:31:50.8193703Z ✔ [1/4] Built Comparator.Util (266ms)
+2026-10-30T00:31:54.8224363Z ✔ [5/16] Built Comparator.Util:c.o (133ms)
+2026-10-30T00:31:56.0236842Z ✔ [6/16] Built Export.Parse (1.3s)
+2026-10-30T00:31:56.4241459Z ✔ [7/16] Built Comparator.Axioms (466ms)
+2026-10-30T00:31:56.9256957Z ✔ [8/16] Built Comparator.Axioms:c.o (446ms)
+2026-10-30T00:31:57.1261610Z ✔ [9/16] Built Comparator.Compare (712ms)
+2026-10-30T00:31:57.6271509Z ✔ [10/16] Built Comparator (483ms)
+2026-10-30T00:31:57.7263676Z ✔ [11/16] Built Comparator:c.o (113ms)
+2026-10-30T00:31:57.8265786Z ✔ [12/16] Built Comparator.Compare:c.o (607ms)
+2026-10-30T00:31:59.2287729Z ✔ [13/16] Built Main (1.5s)
+2026-10-30T00:31:59.5290626Z ✔ [14/16] Built Export.Parse:c.o (3.5s)
+2026-10-30T00:32:00.1297486Z ✔ [15/16] Built Main:c.o (906ms)
+2026-10-30T00:32:00.7303370Z ✔ [16/16] Built comparator:exe (615ms)
+2026-10-30T00:32:00.7308842Z Build completed successfully (16 jobs).
+2026-10-30T00:32:06.5116860Z ✔ [2/6] Built Export (5.3s)
+2026-10-30T00:32:07.4117314Z ✔ [3/6] Built Main (882ms)
+2026-10-30T00:32:07.6119597Z ✔ [4/6] Built Main:c.o (216ms)
+2026-10-30T00:32:09.2137253Z ✔ [5/6] Built Export:c.o (2.6s)
+2026-10-30T00:32:11.2184648Z ✔ [6/6] Built lean4export:exe (2.0s)
+2026-10-30T00:32:11.2188693Z Build completed successfully (6 jobs).

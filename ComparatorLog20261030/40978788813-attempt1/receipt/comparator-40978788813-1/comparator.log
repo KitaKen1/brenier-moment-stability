@@ -1,0 +1,20 @@
+Running as unit: run-u19.service
+Building ComparatorChallenges.BrenierMomentStability
+⚠ [2624/2624] Replayed ComparatorChallenges.BrenierMomentStability
+warning: ComparatorChallenges/BrenierMomentStability.lean:90:8: declaration uses `sorry`
+warning: ComparatorChallenges/BrenierMomentStability.lean:109:8: declaration uses `sorry`
+warning: ComparatorChallenges/BrenierMomentStability.lean:122:8: declaration uses `sorry`
+Build completed successfully (2624 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, BrenierStability.moment_stability, BrenierStability.moment_rate_sharp, BrenierStability.no_modulus_at_second_moment, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ComparatorChallenges.BrenierMomentStability
+Building BrenierMoment.FCPresentation
+Build completed successfully (9031 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, BrenierStability.moment_stability, BrenierStability.moment_rate_sharp, BrenierStability.no_modulus_at_second_moment, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from BrenierMoment.FCPresentation
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+Finished with result: success
+Main processes terminated with: code=exited/status=0
+Service runtime: 3min 11.775s
+CPU time consumed: 3min 9.663s
+Memory peak: 8.6M
+Memory swap peak: 0B

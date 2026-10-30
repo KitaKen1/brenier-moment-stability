@@ -1,0 +1,41 @@
+﻿2026-10-30T01:04:57.5486376Z Current runner version: '2.338.0'
+2026-10-30T01:04:57.5505461Z ##[group]Runner Image Provisioner
+2026-10-30T01:04:57.5505995Z Hosted Compute Agent
+2026-10-30T01:04:57.5506337Z Version: 20261021.618
+2026-10-30T01:04:57.5506762Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-30T01:04:57.5507190Z Build Date: 2026-10-21T00:45:21Z
+2026-10-30T01:04:57.5507697Z Worker ID: {0381c5c0-6dd3-4ec6-918f-f84930c48a6e}
+2026-10-30T01:04:57.5508138Z Region: centralus
+2026-10-30T01:04:57.5508457Z Cloud: Azure
+2026-10-30T01:04:57.5508825Z ##[endgroup]
+2026-10-30T01:04:57.5509641Z ##[group]Operating System
+2026-10-30T01:04:57.5510025Z Ubuntu
+2026-10-30T01:04:57.5510352Z 24.04.5
+2026-10-30T01:04:57.5510662Z LTS
+2026-10-30T01:04:57.5511006Z ##[endgroup]
+2026-10-30T01:04:57.5511339Z ##[group]Runner Image
+2026-10-30T01:04:57.5511775Z Image: ubuntu-24.04
+2026-10-30T01:04:57.5512125Z Version: 20261025.353.1
+2026-10-30T01:04:57.5512910Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-30T01:04:57.5514020Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-10-30T01:04:57.5514618Z ##[endgroup]
+2026-10-30T01:04:57.5515272Z ##[group]GITHUB_TOKEN Permissions
+2026-10-30T01:04:57.5516535Z Contents: read
+2026-10-30T01:04:57.5516891Z Metadata: read
+2026-10-30T01:04:57.5517256Z ##[endgroup]
+2026-10-30T01:04:57.5518879Z Secret source: Actions
+2026-10-30T01:04:57.5519457Z Cache mode: write
+2026-10-30T01:04:57.5520213Z Prepare workflow directory
+2026-10-30T01:04:57.5780887Z Prepare all required actions
+2026-10-30T01:04:57.5820250Z Complete job name: verification_status
+2026-10-30T01:04:57.6627033Z ##[group]Run test "$READY" = true
+2026-10-30T01:04:57.6627819Z [36;1mtest "$READY" = true[0m
+2026-10-30T01:04:57.6628368Z [36;1mtest "$COMPARE" = success[0m
+2026-10-30T01:04:57.6629156Z [36;1mtest "$REPLAY" = success[0m
+2026-10-30T01:04:57.7150727Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-30T01:04:57.7151472Z env:
+2026-10-30T01:04:57.7151807Z   READY: true
+2026-10-30T01:04:57.7152131Z   COMPARE: success
+2026-10-30T01:04:57.7152530Z   REPLAY: success
+2026-10-30T01:04:57.7152886Z ##[endgroup]
+2026-10-30T01:04:57.7365168Z Cleaning up orphan processes

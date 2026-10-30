@@ -1,0 +1,12 @@
+﻿2026-10-30T00:21:47.9395938Z ##[group]Run actions/cache/restore@v4
+2026-10-30T00:21:47.9396243Z with:
+2026-10-30T00:21:47.9396458Z   path: lean/.lake/build
+2026-10-30T00:21:47.9396814Z   key: brenier-fc-4871736bc0c348fd9e6a25d2f0e6e28892dbeeba-40978788813-1
+2026-10-30T00:21:47.9397315Z   restore-keys: brenier-fc-4871736bc0c348fd9e6a25d2f0e6e28892dbeeba-
+2026-10-30T00:21:47.9397705Z   enableCrossOsArchive: false
+2026-10-30T00:21:47.9398227Z   fail-on-cache-miss: false
+2026-10-30T00:21:47.9398475Z   lookup-only: false
+2026-10-30T00:21:47.9398703Z ##[endgroup]
+2026-10-30T00:21:48.0523688Z (node:3144) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-30T00:21:48.0524444Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-30T00:21:48.2349056Z Cache not found for input keys: brenier-fc-4871736bc0c348fd9e6a25d2f0e6e28892dbeeba-40978788813-1, brenier-fc-4871736bc0c348fd9e6a25d2f0e6e28892dbeeba-

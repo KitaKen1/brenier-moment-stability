@@ -1,0 +1,11 @@
+﻿2026-10-30T00:31:22.6664907Z ##[group]Run lake build ComparatorChallenges
+2026-10-30T00:31:22.6665372Z [36;1mlake build ComparatorChallenges[0m
+2026-10-30T00:31:22.6665757Z [36;1mmkdir -p "$RUNNER_TEMP/trusted-challenge"[0m
+2026-10-30T00:31:22.6666406Z [36;1mfind .lake/build -type f -path '*ComparatorChallenges*' -print0 | tar --null -T - -cf "$RUNNER_TEMP/trusted-challenge/files.tar"[0m
+2026-10-30T00:31:22.6686195Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-30T00:31:22.6686544Z ##[endgroup]
+2026-10-30T00:31:26.3330208Z ⚠ [2624/2625] Built ComparatorChallenges.BrenierMomentStability (2.2s)
+2026-10-30T00:31:26.3331309Z warning: ComparatorChallenges/BrenierMomentStability.lean:90:8: declaration uses `sorry`
+2026-10-30T00:31:26.3332212Z warning: ComparatorChallenges/BrenierMomentStability.lean:109:8: declaration uses `sorry`
+2026-10-30T00:31:26.3333122Z warning: ComparatorChallenges/BrenierMomentStability.lean:122:8: declaration uses `sorry`
+2026-10-30T00:31:26.3378252Z Build completed successfully (2625 jobs).

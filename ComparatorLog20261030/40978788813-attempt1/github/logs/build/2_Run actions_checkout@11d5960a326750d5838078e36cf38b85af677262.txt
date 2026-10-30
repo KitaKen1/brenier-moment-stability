@@ -1,0 +1,83 @@
+﻿2026-10-30T00:17:56.5226222Z ##[group]Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+2026-10-30T00:17:56.5227292Z with:
+2026-10-30T00:17:56.5227740Z   persist-credentials: false
+2026-10-30T00:17:56.5228541Z   repository: KitaKen1/brenier-moment-stability
+2026-10-30T00:17:56.5232377Z   token: ***
+2026-10-30T00:17:56.5232807Z   ssh-strict: true
+2026-10-30T00:17:56.5233247Z   ssh-user: git
+2026-10-30T00:17:56.5233667Z   clean: true
+2026-10-30T00:17:56.5234112Z   sparse-checkout-cone-mode: true
+2026-10-30T00:17:56.5234630Z   fetch-depth: 1
+2026-10-30T00:17:56.5235069Z   fetch-tags: false
+2026-10-30T00:17:56.5235506Z   show-progress: true
+2026-10-30T00:17:56.5235958Z   lfs: false
+2026-10-30T00:17:56.5236370Z   submodules: false
+2026-10-30T00:17:56.5236810Z   set-safe-directory: true
+2026-10-30T00:17:56.5237312Z   allow-unsafe-pr-checkout: false
+2026-10-30T00:17:56.5238173Z ##[endgroup]
+2026-10-30T00:17:56.7609185Z Syncing repository: KitaKen1/brenier-moment-stability
+2026-10-30T00:17:56.7611802Z ##[group]Getting Git version info
+2026-10-30T00:17:56.7613365Z Working directory is '/home/runner/work/brenier-moment-stability/brenier-moment-stability'
+2026-10-30T00:17:56.7615290Z [command]/usr/bin/git version
+2026-10-30T00:17:56.7652537Z git version 2.56.0
+2026-10-30T00:17:56.7672253Z ##[endgroup]
+2026-10-30T00:17:56.7686811Z Temporarily overriding HOME='/home/runner/work/_temp/92c0fa41-87cf-47f0-ba63-d5e143f1716a' before making global git config changes
+2026-10-30T00:17:56.7689786Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-30T00:17:56.7692639Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/brenier-moment-stability/brenier-moment-stability
+2026-10-30T00:17:56.7741737Z Deleting the contents of '/home/runner/work/brenier-moment-stability/brenier-moment-stability'
+2026-10-30T00:17:56.7745686Z ##[group]Initializing the repository
+2026-10-30T00:17:56.7750210Z [command]/usr/bin/git init /home/runner/work/brenier-moment-stability/brenier-moment-stability
+2026-10-30T00:17:56.7835743Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-30T00:17:56.7837029Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-30T00:17:56.7838253Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-30T00:17:56.7839103Z hint: call:
+2026-10-30T00:17:56.7839530Z hint:
+2026-10-30T00:17:56.7840158Z hint: 	git config --global init.defaultBranch <name>
+2026-10-30T00:17:56.7840900Z hint:
+2026-10-30T00:17:56.7841603Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-30T00:17:56.7842641Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-30T00:17:56.7843488Z hint:
+2026-10-30T00:17:56.7844044Z hint: 	git branch -m <name>
+2026-10-30T00:17:56.7844598Z hint:
+2026-10-30T00:17:56.7845301Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-30T00:17:56.7851747Z Initialized empty Git repository in /home/runner/work/brenier-moment-stability/brenier-moment-stability/.git/
+2026-10-30T00:17:56.7862090Z [command]/usr/bin/git remote add origin https://github.com/KitaKen1/brenier-moment-stability
+2026-10-30T00:17:56.7937017Z ##[endgroup]
+2026-10-30T00:17:56.7937848Z ##[group]Disabling automatic garbage collection
+2026-10-30T00:17:56.7940602Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-30T00:17:56.7974008Z ##[endgroup]
+2026-10-30T00:17:56.7974790Z ##[group]Setting up auth
+2026-10-30T00:17:56.7980297Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-30T00:17:56.8016545Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-30T00:17:56.8353285Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-30T00:17:56.8388732Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-30T00:17:56.8630253Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-30T00:17:56.8666524Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-30T00:17:56.8912041Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-30T00:17:56.8953387Z ##[endgroup]
+2026-10-30T00:17:56.8966974Z ##[group]Fetching the repository
+2026-10-30T00:17:56.8968876Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4871736bc0c348fd9e6a25d2f0e6e28892dbeeba:refs/remotes/origin/main
+2026-10-30T00:17:57.5688870Z From https://github.com/KitaKen1/brenier-moment-stability
+2026-10-30T00:17:57.5691693Z  * [new ref]         4871736bc0c348fd9e6a25d2f0e6e28892dbeeba -> origin/main
+2026-10-30T00:17:57.5697457Z ##[endgroup]
+2026-10-30T00:17:57.5699876Z ##[group]Determining the checkout info
+2026-10-30T00:17:57.5702392Z ##[endgroup]
+2026-10-30T00:17:57.5704201Z [command]/usr/bin/git sparse-checkout disable
+2026-10-30T00:17:57.5752932Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-30T00:17:57.5783776Z ##[group]Checking out the ref
+2026-10-30T00:17:57.5794400Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-30T00:17:57.6201055Z Switched to a new branch 'main'
+2026-10-30T00:17:57.6205255Z branch 'main' set up to track 'origin/main'.
+2026-10-30T00:17:57.6214020Z ##[endgroup]
+2026-10-30T00:17:57.6255060Z [command]/usr/bin/git log -1 --format=%H
+2026-10-30T00:17:57.6281234Z 4871736bc0c348fd9e6a25d2f0e6e28892dbeeba
+2026-10-30T00:17:57.6291453Z ##[group]Removing auth
+2026-10-30T00:17:57.6294795Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-30T00:17:57.6328568Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-30T00:17:57.6571804Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-30T00:17:57.6600970Z http.https://github.com/.extraheader
+2026-10-30T00:17:57.6607819Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-30T00:17:57.6643141Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-30T00:17:57.6883896Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-30T00:17:57.6917808Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-30T00:17:57.7156785Z ##[endgroup]

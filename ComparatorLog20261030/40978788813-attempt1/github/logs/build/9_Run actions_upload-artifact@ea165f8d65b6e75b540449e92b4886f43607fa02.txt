@@ -1,0 +1,24 @@
+﻿2026-10-30T00:27:12.3572316Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-30T00:27:12.3572919Z with:
+2026-10-30T00:27:12.3573136Z   name: build-40978788813-1
+2026-10-30T00:27:12.3573402Z   path: build-receipt/
+2026-10-30T00:27:12.3573630Z   retention-days: 90
+2026-10-30T00:27:12.3573859Z   if-no-files-found: error
+2026-10-30T00:27:12.3574101Z   compression-level: 6
+2026-10-30T00:27:12.3574329Z   overwrite: false
+2026-10-30T00:27:12.3574564Z   include-hidden-files: false
+2026-10-30T00:27:12.3574818Z ##[endgroup]
+2026-10-30T00:27:12.5291862Z (node:4550) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-30T00:27:12.5292728Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-30T00:27:12.5351687Z With the provided path, there will be 7 files uploaded
+2026-10-30T00:27:12.5356132Z Artifact name is valid!
+2026-10-30T00:27:12.5356852Z Root directory input is valid!
+2026-10-30T00:27:12.8864106Z Beginning upload of artifact content to blob storage
+2026-10-30T00:27:12.9130883Z (node:4550) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-30T00:27:13.1601027Z Uploaded bytes 15583
+2026-10-30T00:27:13.2200965Z Finished uploading artifact content to blob storage!
+2026-10-30T00:27:13.2202669Z SHA256 digest of uploaded artifact zip is 511c637b5837bda52915169c515b5855b2b264d91e2eea0faf38fef75ab0833a
+2026-10-30T00:27:13.2204177Z Finalizing artifact upload
+2026-10-30T00:27:13.6900878Z Artifact build-40978788813-1.zip successfully finalized. Artifact ID 12944576159
+2026-10-30T00:27:13.6902225Z Artifact build-40978788813-1 has been successfully uploaded! Final size is 15583 bytes. Artifact ID is 12944576159
+2026-10-30T00:27:13.6903742Z Artifact download URL: https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813/artifacts/12944576159

@@ -1,0 +1,42 @@
+{
+  "repository": "KitaKen1/brenier-moment-stability",
+  "run_id": 40978788813,
+  "run_attempt": 1,
+  "proof_commit": "c028b1a002da7ef4bf9177a3b4abcf596a6ab1b3",
+  "tested_commit": "4871736bc0c348fd9e6a25d2f0e6e28892dbeeba",
+  "archive_commit": null,
+  "run_url": "https://github.com/KitaKen1/brenier-moment-stability/actions/runs/40978788813",
+  "conclusion": "success",
+  "artifacts": [
+    {
+      "id": 12945678502,
+      "name": "replay-40978788813-1",
+      "file": "artifacts/12945678502-replay-40978788813-1.zip",
+      "github_digest": "sha256:5521098181f929a7f957343a079ec6d93b7473eb1ff29fce3d8ce0b7b84298cf",
+      "sha256": "5521098181f929a7f957343a079ec6d93b7473eb1ff29fce3d8ce0b7b84298cf",
+      "digest_matches": true,
+      "expires_at": "2027-01-28T00:17:52Z"
+    },
+    {
+      "id": 12944875362,
+      "name": "comparator-40978788813-1",
+      "file": "artifacts/12944875362-comparator-40978788813-1.zip",
+      "github_digest": "sha256:0bcc574ea6e7428ed1ef11b8f6ee81a499ebc28d85b51653fe9fb1a39ebbf819",
+      "sha256": "0bcc574ea6e7428ed1ef11b8f6ee81a499ebc28d85b51653fe9fb1a39ebbf819",
+      "digest_matches": true,
+      "expires_at": "2027-01-28T00:17:52Z"
+    },
+    {
+      "id": 12944576159,
+      "name": "build-40978788813-1",
+      "file": "artifacts/12944576159-build-40978788813-1.zip",
+      "github_digest": "sha256:511c637b5837bda52915169c515b5855b2b264d91e2eea0faf38fef75ab0833a",
+      "sha256": "511c637b5837bda52915169c515b5855b2b264d91e2eea0faf38fef75ab0833a",
+      "digest_matches": true,
+      "expires_at": "2027-01-28T00:17:52Z"
+    }
+  ],
+  "retrieved_at_utc": "2026-10-30T01:10:35.792486+00:00",
+  "note": "API metadata, original ZIPs, full job logs and all extracted receipts preserved. SHA256SUMS are local file identities, not a signed GitHub attestation. Record the archive commit after committing.",
+  "target_scope": "three variant statement types expanded from the compact FC draft and checked against the proved model by Lean rfl; FC import, module/public declarations and review attributes removed"
+}
