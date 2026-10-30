@@ -1,0 +1,60 @@
+{
+  "started_utc": "2026-10-12T16:16:27Z",
+  "completed_utc": "2026-10-12T16:36:06Z",
+  "command": [
+    "lean",
+    "-DautoImplicit=false",
+    "-o",
+    "BrenierMomentStabilityLean4Web.olean",
+    "BrenierMomentStabilityLean4Web.lean"
+  ],
+  "exit_code": 0,
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "source_sha256": "2ac1e215f41be591ff7ed750c02e425a20898d1d89445c7e0cc2be87b1cb9f99",
+  "scope": "Full elaboration and kernel checking of the generated single file by `lean` on the author's machine, with LEAN_PATH pointing at a prebuilt cache of the pinned Mathlib. Not run through `lake env`, so lean4web/lakefile.toml and lake-manifest.json are not exercised. Hosted Lean4Web not tested.",
+  "axiom_audit": {
+    "BrenierStability.moment_stability": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "BrenierStability.moment_rate_sharp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "BrenierStability.no_modulus_at_second_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "BrenierMoment.moment_stability": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "BrenierMoment.moment_rate_sharp": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "BrenierMoment.no_modulus_at_second_moment": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "BrenierMoment.moment_rate_two_sided": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "status": "passed",
+  "statement_comparison": {
+    "status": "passed",
+    "scope": "The three Mathlib-only targets of this file, and every definition their statements use, have the same types and bodies as in the compiled Comparator challenge, after every auxiliary theorem `Foo._proof_n` is replaced by its proof term (lean/scripts/CompareSingleFile.lean, run with `lean --run`). The constant-by-constant comparison of CompareStatement.lean does not apply to the single file: its definitions refer to auxiliary proofs created earlier in the file under other names.",
+    "script_sha256": "24248dfb4bb81af43d959381500ca592f2a74e12496fad51453d3beae30b69ca",
+    "challenge_sha256": "7766bd7f7b88423e72877fab45d239ef6ed54bd118c3fa80db1a3ae54a5bfb18",
+    "log": "local-statement.log"
+  }
+}

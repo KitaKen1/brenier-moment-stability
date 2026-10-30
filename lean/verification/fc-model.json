@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-13T12:36:35.366329+00:00",
+  "command": [
+    "/Users/kenta/.elan/toolchains/leanprover--lean4---v4.34.1/bin/lean",
+    "-DautoImplicit=false",
+    "/Users/kenta/Dropbox/Intellectual Moonshine/?AI\u6570\u5b66/brenier\u5b89\u5b9a\u6027/forgithubpublication/lean/verification/FCModelCheck.lean"
+  ],
+  "exit_code": 0,
+  "status": "passed",
+  "definition_equalities": 3,
+  "statement_type_equalities": 3,
+  "original_result_proof": "OAI.Problem358.one_third_stability",
+  "original_axioms_reported": false,
+  "input_sha256": {
+    "FClikelean/BrenierMomentStability.lean": "edeac5be05b88d599c07a49ac92efe9a1bd503cd83079cbe35f1383921744409",
+    "lean/BrenierMoment/Presentation/Model.lean": "173f18dfe1014291080cd5778eccf31d0de3518f88bbaa445aa530254f5e5863",
+    "lean/BrenierMoment/FCPresentation.lean": "17c6d9d9b6754639f9104a0c09f88dc9202e89ca0d87f935daf252823ff84454",
+    "lean/scripts/verify_fc_statement.py": "5c8f0a257fba1e1232e4400c35233ba23a7e0607e23366337f79200891a82458"
+  },
+  "scope": "Lean checks the compact definitions and three variant types against the compiled Mathlib-only model by rfl, and derives the original result from OpenAI's one_third_stability. The FormalConjecturesUtil import and metadata are omitted; FC checkout compatibility is not checked."
+}

@@ -1,0 +1,40 @@
+{
+  "recorded_utc": "2026-10-12T15:47:55.403117+00:00",
+  "scope": "Local comparison on the author's machine of the separately compiled challenge and solution. Both scripts were run with `lean --run` and LEAN_PATH pointing at the module-by-module build and the Mathlib cache, not with `lake env`. No sandbox and no kernel replay: this is not a run of leanprover/comparator.",
+  "commands": [
+    "lean --run lean/scripts/CompareStatement.lean ComparatorChallenges/BrenierMomentStability.json",
+    "lean --run comparator/LocalCompare.lean"
+  ],
+  "input_sha256": {
+    "lean/ComparatorChallenges/BrenierMomentStability.lean": "7766bd7f7b88423e72877fab45d239ef6ed54bd118c3fa80db1a3ae54a5bfb18",
+    "lean/ComparatorChallenges/BrenierMomentStability.json": "f11bd0644afbdc8c85ccb581c94e1efebae6989f66744024e487d79e38c5a21f",
+    "lean/BrenierMoment/FCPresentation.lean": "17c6d9d9b6754639f9104a0c09f88dc9202e89ca0d87f935daf252823ff84454",
+    "lean/BrenierMoment/Presentation/Model.lean": "173f18dfe1014291080cd5778eccf31d0de3518f88bbaa445aa530254f5e5863",
+    "lean/scripts/CompareStatement.lean": "a9257887da5d6fac95a4e8961d08895c0273f3be3b234fd73c8673519144b609",
+    "comparator/LocalCompare.lean": "ee7c1ecf8aa62a5bd251d34c1e09d0484162a3148a082f76a093c04f61870977"
+  },
+  "statement_comparison": {
+    "log": "local-statement.log",
+    "status": "passed",
+    "separately_declared_constants_compared": {
+      "BrenierStability.moment_stability": 15,
+      "BrenierStability.moment_rate_sharp": 18,
+      "BrenierStability.no_modulus_at_second_moment": 15
+    }
+  },
+  "declaration_comparison": {
+    "log": "local-comparison.log",
+    "status": "passed",
+    "compared_declaration_count": {
+      "BrenierStability.moment_stability": 32894,
+      "BrenierStability.moment_rate_sharp": 32751,
+      "BrenierStability.no_modulus_at_second_moment": 32748
+    },
+    "mismatches": 0
+  },
+  "axioms_of_the_solution": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

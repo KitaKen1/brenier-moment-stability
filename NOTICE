@@ -1,0 +1,30 @@
+Sharp Moment Stability of Brenier Maps
+Lean formalization and publication packaging, 2026.
+
+Includes source adapted from OpenAI math, https://github.com/openai/math,
+commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb, under lean/vendor/openai/.
+The original Apache-2.0 license is preserved in lean/vendor/openai/LICENSE.
+
+The files under lean/vendor/openai/ are modified versions of the files of
+lean/OAI/Analysis/Brenier/ in that repository. The changes are:
+- every file has a Lean module header (module, public import, exposed public
+  section) in place of its plain imports;
+- the bodies of Basic, Atomic, Optimality and Wasserstein are compiled together
+  in the added file TransportCore.lean, which uses targeted Mathlib imports in
+  place of the omnibus import; their original paths are re-export wrappers that
+  also keep the omnibus Mathlib import for the modules that depend on them;
+- in Quantiles.lean the import precedes the leading comment block, as the
+  module header requires;
+- in PrefixSections.lean the definition `scalarBlock` is public instead of
+  private, because it occurs in the body of an exposed public definition.
+The mathematical statements and proof bodies are retained. The file list, the
+SHA-256 of each included file and the same list of changes are recorded in
+lean/VENDOR.json.
+
+lean/BrenierMoment/ contains this project's formalization. Its statement
+vocabulary in lean/BrenierMoment/Presentation/Model.lean follows the definitions
+of OAI.Problem358 in OpenAI math.
+The complete generated Lean4Web edition includes the adapted sources and
+documents its packaging changes in its header and lean4web/sources.json.
+
+The repository layout follows KitaKen1/bapat-lal-q-permanent-lean.

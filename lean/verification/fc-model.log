@@ -1,0 +1,108 @@
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:32:75: warning: Variable name `hU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:33:5: warning: Variable name `hUb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hUb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:33:35: warning: Variable name `hUn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hUn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:33:89: warning: Variable name `hV` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hV
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:34:15: warning: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:34:28: warning: Variable name `hβ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hβ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:49:49: warning: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:49:62: warning: Variable name `hβ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hβ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:63:57: warning: Variable name `hε` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hε
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:96:58: warning: Variable name `hU` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hU
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:97:5: warning: Variable name `hUb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hUb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:97:35: warning: Variable name `hUn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hUn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:97:72: warning: Variable name `hV` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hV
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:98:15: warning: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:98:28: warning: Variable name `hβ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hβ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:108:49: warning: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:108:62: warning: Variable name `hβ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hβ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/Users/kenta/Dropbox/Intellectual Moonshine/?AI数学/brenier安定性/forgithubpublication/lean/verification/FCModelCheck.lean:115:57: warning: Variable name `hε` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hε
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`

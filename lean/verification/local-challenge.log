@@ -1,0 +1,3 @@
+ComparatorChallenges/BrenierMomentStability.lean:90:8: warning: declaration uses `sorry`
+ComparatorChallenges/BrenierMomentStability.lean:109:8: warning: declaration uses `sorry`
+ComparatorChallenges/BrenierMomentStability.lean:122:8: warning: declaration uses `sorry`

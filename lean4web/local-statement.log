@@ -1,0 +1,9 @@
+challenge: ComparatorChallenges.BrenierMomentStability
+solution: BrenierMomentStabilityLean4Web
+BrenierStability.moment_stability: statement matches up to auxiliary proof names; 10 separately declared constants compared; axioms #[Classical.choice, Quot.sound, propext]
+  compared: #[BrenierStability.IsBrenierMap, BrenierStability.IsCoupling, BrenierStability.Space, BrenierStability.cost, BrenierStability.graph, BrenierStability.logConcaveSource, BrenierStability.mapDist, BrenierStability.modulus, BrenierStability.moment, BrenierStability.wasserstein]
+BrenierStability.moment_rate_sharp: statement matches up to auxiliary proof names; 12 separately declared constants compared; axioms #[Classical.choice, Quot.sound, propext]
+  compared: #[BrenierStability.HasFourAtoms, BrenierStability.IsBrenierMap, BrenierStability.IsCoupling, BrenierStability.Space, BrenierStability.box, BrenierStability.boxSource, BrenierStability.cost, BrenierStability.graph, BrenierStability.mapDist, BrenierStability.modulus, BrenierStability.moment, BrenierStability.wasserstein]
+BrenierStability.no_modulus_at_second_moment: statement matches up to auxiliary proof names; 11 separately declared constants compared; axioms #[Classical.choice, Quot.sound, propext]
+  compared: #[BrenierStability.HasFourAtoms, BrenierStability.IsBrenierMap, BrenierStability.IsCoupling, BrenierStability.Space, BrenierStability.box, BrenierStability.boxSource, BrenierStability.cost, BrenierStability.graph, BrenierStability.mapDist, BrenierStability.moment, BrenierStability.wasserstein]
+Single-file statement comparison passed.

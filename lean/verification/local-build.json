@@ -1,0 +1,1156 @@
+{
+  "scope": "Local build on the author's machine, 12 and 13 October 2026 (JST). Each module was compiled separately by `lean` (Lean 4.34.1, -DautoImplicit=false) against a prebuilt cache of Mathlib d13f23b723b8a846827a245b89c10fc7d3f11612, in dependency order, without Lake. A module that depends on `sorry` is rejected, except the Comparator challenge, whose statements are left unproved on purpose. A module is listed only if the file in this package has the SHA-256 of the source that was compiled. This is not a Lake build and not a build of the dependencies from source.",
+  "lean_version": "4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "compiled_modules": [
+    {
+      "module": "BrenierMoment.Tails",
+      "path": "BrenierMoment/Tails.lean",
+      "sha256": "f19535450801309b8878fb86f89b74269b970865af86c094f93e46e401af6db8"
+    },
+    {
+      "module": "BrenierMoment.MomentP4",
+      "path": "BrenierMoment/MomentP4.lean",
+      "sha256": "084b0a93786152f538d95cfa6277fd2e186c5dd7fc10d188f776f8cf4a14396a"
+    },
+    {
+      "module": "BrenierMoment.MomentTail",
+      "path": "BrenierMoment/MomentTail.lean",
+      "sha256": "de41dc2ee91505994feee55ea16c9e42f246d40f030967e186ebcfa3f0721959"
+    },
+    {
+      "module": "BrenierMoment.BalanceP4",
+      "path": "BrenierMoment/BalanceP4.lean",
+      "sha256": "482504dfc687d7ec861f8a71548620a96fb196cdff7cb27ab585358536b33fab"
+    },
+    {
+      "module": "BrenierMoment.Threshold",
+      "path": "BrenierMoment/Threshold.lean",
+      "sha256": "fd69af49c4e96d47f348346c8cde9f12ffb07c1343903a21d96d2fb84b9b34d9"
+    },
+    {
+      "module": "BrenierMoment.OneSided",
+      "path": "BrenierMoment/OneSided.lean",
+      "sha256": "c31ed96876f2b79f6f12c00a513719e635dfd99cb5511fb0b1ba29642941fd0e"
+    },
+    {
+      "module": "BrenierMoment.Clip",
+      "path": "BrenierMoment/Clip.lean",
+      "sha256": "8e360ec1ef6818bacbc526c8066cf94814575b002f7638542cf8a391437bb505"
+    },
+    {
+      "module": "BrenierMoment.ClipSlack",
+      "path": "BrenierMoment/ClipSlack.lean",
+      "sha256": "64582e919561c0f738046359b0520b821a01c2040426c741a0d324612c4c1260"
+    },
+    {
+      "module": "BrenierMoment.FourCellGeometry",
+      "path": "BrenierMoment/FourCellGeometry.lean",
+      "sha256": "cb34b3bfcf0e3a64e4c6bfc4a4188234115789b3c2d7a4d0e67b3c90146d02a7"
+    },
+    {
+      "module": "BrenierMoment.FourCellSlices",
+      "path": "BrenierMoment/FourCellSlices.lean",
+      "sha256": "1eb11829291e3ed61fa5278500c65836650c0df0b22dac937bdfbdbbb1700854"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.TransportCore",
+      "path": "vendor/openai/OAI/Analysis/Brenier/TransportCore.lean",
+      "sha256": "13b41345e0d5f6914263d7758fad424a6a3ca92483a7b06c742fb4d867dade66"
+    },
+    {
+      "module": "BrenierMoment.FourAtomTargets",
+      "path": "BrenierMoment/FourAtomTargets.lean",
+      "sha256": "46dc7be087b89f9a057172d5c665187d9e7ef3623c26b4b94042d8bd9bbf5359"
+    },
+    {
+      "module": "BrenierMoment.CoordBox",
+      "path": "BrenierMoment/CoordBox.lean",
+      "sha256": "39ff338e79fe839d8308b64408edc20317541d431b74d478ece74542794c48ef"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.AffineCertificate",
+      "path": "vendor/openai/OAI/Analysis/Brenier/AffineCertificate.lean",
+      "sha256": "a8abf286d8885a7dbe3398996ede8c6ada7f4d912871e7bddc0b5ac6905c02d5"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Basic",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Basic.lean",
+      "sha256": "aa236a0476a3f5324ad7bb83591b929c1967ee7df10c9cc88c32c319eed369b4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.AffineTies",
+      "path": "vendor/openai/OAI/Analysis/Brenier/AffineTies.lean",
+      "sha256": "717b0715f4eca7892332dc7a0097897779f2b482249e444e43489573ccd18f52"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CompactMeasure",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CompactMeasure.lean",
+      "sha256": "25cac5e7b465a34f51c2926de00eb80ac01074590052c364717571a94f42b5b4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Optimality",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Optimality.lean",
+      "sha256": "aa236a0476a3f5324ad7bb83591b929c1967ee7df10c9cc88c32c319eed369b4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.AffineOptimality",
+      "path": "vendor/openai/OAI/Analysis/Brenier/AffineOptimality.lean",
+      "sha256": "08d6eef14a58ec8eaf4210dafebbf6c6e0b8bd15f3a6abb3f1516318d82e9b5f"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Argmax",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Argmax.lean",
+      "sha256": "b425c95f2bd5e78c2ed6be3e559e55d8b132c62fc00a3ff21e35c197f7b84fa9"
+    },
+    {
+      "module": "BrenierMoment.FourAtomSharp",
+      "path": "BrenierMoment/FourAtomSharp.lean",
+      "sha256": "5d7a436a1fca1b924ce6e1203b726b077a7a57f5bb7a1d4f37565525501d82ef"
+    },
+    {
+      "module": "BrenierMoment.SharpRate",
+      "path": "BrenierMoment/SharpRate.lean",
+      "sha256": "ff0511f848ca8b9e7d2d559aff3bad7e7682d406725d8c7ab333bf44ee3ff5a4"
+    },
+    {
+      "module": "BrenierMoment.Sharpness",
+      "path": "BrenierMoment/Sharpness.lean",
+      "sha256": "d86e8d734dd6ce948718390c186858bae9e0ca76c7f0bea8ec0a50e1fa02d31b"
+    },
+    {
+      "module": "BrenierMoment.LastCoordinate",
+      "path": "BrenierMoment/LastCoordinate.lean",
+      "sha256": "742056d68c9da08f80d92ad4736df708a2c421917034a78e0c019af51a7121eb"
+    },
+    {
+      "module": "BrenierMoment.PotentialBound",
+      "path": "BrenierMoment/PotentialBound.lean",
+      "sha256": "71462c954539e04cd1c1b281ec635a32b6c93e761a1fd926588b217054d3a1dd"
+    },
+    {
+      "module": "BrenierMoment.PotentialBoundLimit",
+      "path": "BrenierMoment/PotentialBoundLimit.lean",
+      "sha256": "d96b1404da95590e0b0e728b4fea6b3acec45af11e88c9f4647a57cc23f96b63"
+    },
+    {
+      "module": "BrenierMoment.PowerSource",
+      "path": "BrenierMoment/PowerSource.lean",
+      "sha256": "75453247e477de5afc3899e4b9dfb5f6690ec4a30429be2dddc3b62912fba8a5"
+    },
+    {
+      "module": "BrenierMoment.LogConcave",
+      "path": "BrenierMoment/LogConcave.lean",
+      "sha256": "e66ebb0a30a77dfb07ca5e305fc6cfa3823e52135fd0ab3b07ae1b1d238f6755"
+    },
+    {
+      "module": "BrenierMoment.LineInterpolation",
+      "path": "BrenierMoment/LineInterpolation.lean",
+      "sha256": "7758f24e8c0e609a983e56577e1b8e8c513ec29fcf96aace7fc525ace188f377"
+    },
+    {
+      "module": "BrenierMoment.CoordSlices",
+      "path": "BrenierMoment/CoordSlices.lean",
+      "sha256": "94fb3b4a645137ea9272e1feb06a805fb850b22ff76e804dfcda24e982a5699b"
+    },
+    {
+      "module": "BrenierMoment.SourceInterpolation",
+      "path": "BrenierMoment/SourceInterpolation.lean",
+      "sha256": "68d23f16494fb7bc332383ae03e1f7501b16671e1db96695d64be2c8567bf5f8"
+    },
+    {
+      "module": "BrenierMoment.StripInterpolation",
+      "path": "BrenierMoment/StripInterpolation.lean",
+      "sha256": "22b431a1aa5fb288516986729031d233141ac0eeea3b1d47aece81fd0758724f"
+    },
+    {
+      "module": "BrenierMoment.ActiveMaps",
+      "path": "BrenierMoment/ActiveMaps.lean",
+      "sha256": "428bf01c9be5c1fcda069c06aa2d3cb516cb4eb204bd8bc49d9e40fba243aca7"
+    },
+    {
+      "module": "BrenierMoment.PlanComparison",
+      "path": "BrenierMoment/PlanComparison.lean",
+      "sha256": "f8c03fb8d34a8deabdb86897b07b5790dea8ba4e6fb6974891349505eed60c68"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Conjugacy",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Conjugacy.lean",
+      "sha256": "52cd882be8c878c056d7e785c788daf08634543e2e8cdc0bf9af2b4ab55d40a1"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MapDistance",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MapDistance.lean",
+      "sha256": "77b78ca41db2ebe1b833c9b5af9fd52182bbb70f42ce0201f16e74fd213ed1b5"
+    },
+    {
+      "module": "BrenierMoment.LimitCertificate",
+      "path": "BrenierMoment/LimitCertificate.lean",
+      "sha256": "dab36a8eadae980ba7f44f96ebf8b44ae8098ed42b68c43f2592722b6093e739"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Atomic",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Atomic.lean",
+      "sha256": "aa236a0476a3f5324ad7bb83591b929c1967ee7df10c9cc88c32c319eed369b4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.FiniteCoupling",
+      "path": "vendor/openai/OAI/Analysis/Brenier/FiniteCoupling.lean",
+      "sha256": "239ccb0538e3eeceab90967ad9eafb3f44c3e8637925bdf01eb12c2557a5deaf"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Wasserstein",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Wasserstein.lean",
+      "sha256": "aa236a0476a3f5324ad7bb83591b929c1967ee7df10c9cc88c32c319eed369b4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Quantization",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Quantization.lean",
+      "sha256": "3406424637d9b645f6b8dec6fa7ddbdc00f19b7fd4f14582a752a321b719bcb0"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.AtomicTransport",
+      "path": "vendor/openai/OAI/Analysis/Brenier/AtomicTransport.lean",
+      "sha256": "c570554acac73843cb99fcc75810ad9bcc8c0ae2842bea246f217e3f05793161"
+    },
+    {
+      "module": "BrenierMoment.FiniteTargets",
+      "path": "BrenierMoment/FiniteTargets.lean",
+      "sha256": "138d81b3e5db827d68c5f8eacd14563f1ff812c1f82c2d347a3c1a0724bf3d22"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MapLimits",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MapLimits.lean",
+      "sha256": "93fd6ceb3c1c852df48e385ff52f2c1bf096afc589f95a9247e3a3a0923705c6"
+    },
+    {
+      "module": "BrenierMoment.GeneralTargets",
+      "path": "BrenierMoment/GeneralTargets.lean",
+      "sha256": "f1a2811d4778da17e3665c3fe972e73aa7fb5b8cfd0be75f617a6c6691ee0ffe"
+    },
+    {
+      "module": "BrenierMoment.MomentStability",
+      "path": "BrenierMoment/MomentStability.lean",
+      "sha256": "0c285fbeb960a7e28582213a7959a4038f0e5e249e5cc810be370f016df3d4e0"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MaxCalculus",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MaxCalculus.lean",
+      "sha256": "c91e60a4583d539201b98e0fdb59076c34f888469b357c97d386151445aa4619"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.PotentialTime",
+      "path": "vendor/openai/OAI/Analysis/Brenier/PotentialTime.lean",
+      "sha256": "ec5069a20fd750e93b70bd743b3eda7d3553b7cd5f9c1ee6318451f0f17cf890"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.AffinePaths",
+      "path": "vendor/openai/OAI/Analysis/Brenier/AffinePaths.lean",
+      "sha256": "54500252463eeab5f60e6ebbd6bc01067597dc514a70c502890da36f8b9ab883"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CompactTransport",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CompactTransport.lean",
+      "sha256": "988ebc05b340f2a421ac6cc64eb57252e3e0cc243a7f16bca5e2e2bdff5ae4d6"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Coupling",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Coupling.lean",
+      "sha256": "3e67ea228256ea9ba8432b2edf50d76ee9221b6d0b2c5654571eeac76245ed85"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.ConvexOptimality",
+      "path": "vendor/openai/OAI/Analysis/Brenier/ConvexOptimality.lean",
+      "sha256": "3ccf207deb17927196b7b3e72ed1417368c23e268b2a6e8d90ff8b6b992d8c9d"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.PotentialLimits",
+      "path": "vendor/openai/OAI/Analysis/Brenier/PotentialLimits.lean",
+      "sha256": "3635a78637f24f7dc26d392a4418be1a25f1d877ce217802426bfb20d5e0e51d"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Uniform",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Uniform.lean",
+      "sha256": "4c6daca4bf8bb64641e2ae5ebe70ffaf8bd51cfd64c0db2691de52b3bff1f278"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CellGeometry",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CellGeometry.lean",
+      "sha256": "33013cc7f98d30a890ae5544883b2ceccfc293061913f0c3a57d34e85188465c"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Potential",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Potential.lean",
+      "sha256": "076b16e1f3104bbca169353b76eee1e338a91bb38d4dfbbe20947d161665ad22"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Minimizers",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Minimizers.lean",
+      "sha256": "6bdcb4e341a273fb40bf973542a1e1ee7eb0dbaffa1e50b2f795779856c733ca"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.PrescribedCells",
+      "path": "vendor/openai/OAI/Analysis/Brenier/PrescribedCells.lean",
+      "sha256": "a629198089cde1df33166ce1b3ca3540a4b14a84bf25902154d099734ff56168"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Existence",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Existence.lean",
+      "sha256": "618aa7e9735de9926b0d0626015238213da2e52a0a96a25fbf69ba55990fc51e"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Approximation",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Approximation.lean",
+      "sha256": "0c252dde2282428ef88db462aca2ca79a5681953218a0ed5723ced8791d41b11"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.BoundaryStrip",
+      "path": "vendor/openai/OAI/Analysis/Brenier/BoundaryStrip.lean",
+      "sha256": "240621fe095cbdbc1089daa00ed3fabb1af368cfec08c93fe318934b5cfeb788"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Difference",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Difference.lean",
+      "sha256": "e991384e456aa3841608e8436c6f71ad301798d9988a921f1dafc15c227873c9"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Translation",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Translation.lean",
+      "sha256": "77e0d03005493aeda53a966b173caa09c02b2b77b013b5304dbc251d3e6b669c"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SupportingInterpolation",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SupportingInterpolation.lean",
+      "sha256": "6c7b47d6faa26092d3ec8d2cbb512b3a394cff59bb35038f23c1b6ea1e0e196b"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.UniformInterpolation",
+      "path": "vendor/openai/OAI/Analysis/Brenier/UniformInterpolation.lean",
+      "sha256": "ab34f4469c5d9f4e53e5feed85e43b940b711b1d31f526e448e276d62a71673f"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.AtomicPaths",
+      "path": "vendor/openai/OAI/Analysis/Brenier/AtomicPaths.lean",
+      "sha256": "ae476ef2c7c82170ac9baed3cc5bfb1c54cdc94359d07a5333d24e908043b096"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Laplacian",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Laplacian.lean",
+      "sha256": "6ea62d3f7481f10736dcd9393ce3d61b65f44cb932c6cf9267a1fe24c97dcd84"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.FixedMass",
+      "path": "vendor/openai/OAI/Analysis/Brenier/FixedMass.lean",
+      "sha256": "b91db7f5cef94d19b69cde6d0d79fc7bbf9ffa02404bdb41000b43881411a453"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.InterceptContinuity",
+      "path": "vendor/openai/OAI/Analysis/Brenier/InterceptContinuity.lean",
+      "sha256": "2c881f24f816e07a755106582ac2eddc633917e849ab4caa7ce7659241fdf52b"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Flux",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Flux.lean",
+      "sha256": "78cad715634e31d2f2a1df79d233a2c348c5dd76236bf3add8c3bf698d95f624"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CellEnergy",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CellEnergy.lean",
+      "sha256": "3616016e1321a6697aefd15b78a22801cdd9080356c4489f2b220ca3b188598c"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CellContinuity",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CellContinuity.lean",
+      "sha256": "ac7af54b04184e3d2ee3b6d2695e5bc93572842cd66cd7ff438b0b89589a0b58"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CellMeasure",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CellMeasure.lean",
+      "sha256": "a39ed0f2e05fd47bb8c63af12cc6e20c016da9a7cbc195502324e47cec9f6eb2"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.HalfspaceKernel",
+      "path": "vendor/openai/OAI/Analysis/Brenier/HalfspaceKernel.lean",
+      "sha256": "433bc690b228ef84d02ecbcdff27f7f08fbb8a99eed19001db502bde55cdb812"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CutVariation",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CutVariation.lean",
+      "sha256": "82499b1fd0d25dd5c6f732d4b83d72f737b04226a2e5e1a2cab3557feee3146e"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MovingTrace",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MovingTrace.lean",
+      "sha256": "82702327d121906a1ff2d32bdebc655b28d01a962b290e80452a997ad24535f9"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CutDerivative",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CutDerivative.lean",
+      "sha256": "d8b0e704692c5883161f6dc228767805ade0d8462fa4e2fbeaa4329b7e485c7a"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Interfaces",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Interfaces.lean",
+      "sha256": "909dbfe3e8baa4e170dd4c980cf5548fa70f7e97a87081dd1d7f82c3bb0491ef"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SurfaceCoordinates",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SurfaceCoordinates.lean",
+      "sha256": "fae09495601db762bc5af25baabd6410ff3ad6d27e6d11ea7f86a53699366417"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CellDerivative",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CellDerivative.lean",
+      "sha256": "3fa67f9b58baef0c24132c533e04834524fe8aa202804f67b87cd7f749fde812"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SurfaceMeasure",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SurfaceMeasure.lean",
+      "sha256": "ee1594c41d40c53cfee131d3c2d1f4c16011f3a53509ae4c34b4957a0fb6b2a9"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CellFaces",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CellFaces.lean",
+      "sha256": "c163d50fe6b01d84e6b8a4d7e481e7c75ec0631f8b491e25b882352cea53d014"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.FaceContinuity",
+      "path": "vendor/openai/OAI/Analysis/Brenier/FaceContinuity.lean",
+      "sha256": "0489d7dede99f0470f32e1254eafaa10cdfe0a53f140fcb6ba42bbd3cf0f5b87"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.FacetConnectivity",
+      "path": "vendor/openai/OAI/Analysis/Brenier/FacetConnectivity.lean",
+      "sha256": "24a733994526e91ca9ff25eea156d4677f06f07971f6baf6ca81968beb055fbd"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CanonicalLaplacian",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CanonicalLaplacian.lean",
+      "sha256": "d3af3899103154f9744dde62008832f2e0350fdd72c09049ac835ef750d7b4d9"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.LineDerivative",
+      "path": "vendor/openai/OAI/Analysis/Brenier/LineDerivative.lean",
+      "sha256": "4ec1ce568244237762dbbe4e77924b3a6dc5ba6c2b0922b495f199962d6677f1"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MassDerivative",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MassDerivative.lean",
+      "sha256": "289313f1750cb45f26a42c7ef778559b2c2b0dfa59c0090e6085d59146f3ab5d"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MomentAlgebra",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MomentAlgebra.lean",
+      "sha256": "2c779e11a4c57a31b9ef73fe9551400c11407d46f1738b3dadcdce9815e82c1a"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.StationaryMoment",
+      "path": "vendor/openai/OAI/Analysis/Brenier/StationaryMoment.lean",
+      "sha256": "befd88c28bcdb6e1d93310522fcfdb6411c672b7f4a543e9de3614f715059add"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.InterceptEnergy",
+      "path": "vendor/openai/OAI/Analysis/Brenier/InterceptEnergy.lean",
+      "sha256": "1e5aaa27005b6ca1f69610e783298e99143a7c071834e951345c8015870399e5"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.DensityCDF",
+      "path": "vendor/openai/OAI/Analysis/Brenier/DensityCDF.lean",
+      "sha256": "63900a1316bbbe71768e21c40368cf247a2aa61552a49690146d46a39ac01fc9"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Sections",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Sections.lean",
+      "sha256": "15b0f5a7e32b7d9715f2db8ff8d14a5192ba786efe1053e32974539ad731ab7b"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.ConvexDensity",
+      "path": "vendor/openai/OAI/Analysis/Brenier/ConvexDensity.lean",
+      "sha256": "3bdff80d6f8fc00e1fc0b1cdbd4420abb6b3323ca4a8c2b2d3ead7db4032cba3"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Quantiles",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Quantiles.lean",
+      "sha256": "3428d2412ada35398593b03dee66f341f426e8b90e78f26b9144d0eec54db813"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.ConvexQuantiles",
+      "path": "vendor/openai/OAI/Analysis/Brenier/ConvexQuantiles.lean",
+      "sha256": "e91f51d6761331f4793bb1bb2f7de893d1918679a05bbee4212aacc23ba57978"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.TriangularRecursion",
+      "path": "vendor/openai/OAI/Analysis/Brenier/TriangularRecursion.lean",
+      "sha256": "235954033267eef618df267b6a0daa2be0c73750d90eb58830064c0eb8757e17"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.TriangularSampling",
+      "path": "vendor/openai/OAI/Analysis/Brenier/TriangularSampling.lean",
+      "sha256": "de58e4a6118befdb8b19c881df48d812313ff2cda53d9e24093d2c0a5d7656d3"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.NormalizedSections",
+      "path": "vendor/openai/OAI/Analysis/Brenier/NormalizedSections.lean",
+      "sha256": "83770e1bafcdd30c1ea034a612531f1469309779c330f05619e4b5d1cddb30e4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.PrefixSections",
+      "path": "vendor/openai/OAI/Analysis/Brenier/PrefixSections.lean",
+      "sha256": "f2e249c779a811f696726c2f71304a380298fbee9e5e8f7601d9e41938979e8c"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Midpoint",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Midpoint.lean",
+      "sha256": "cfc41dfef4394b9421277d422e91d58723cb1df88fc888d2ceda90662eb6aebc"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.TriangularDomination",
+      "path": "vendor/openai/OAI/Analysis/Brenier/TriangularDomination.lean",
+      "sha256": "f6b9cd2b85e6d192f6123d652b38d290554bc8b78ea80c49183ca5633ddaf082"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.PrefixSampling",
+      "path": "vendor/openai/OAI/Analysis/Brenier/PrefixSampling.lean",
+      "sha256": "993a461ee8e765da56d7245e868f0e9e17c64fd0d0c9a276debb425a54e52626"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.CanonicalPaths",
+      "path": "vendor/openai/OAI/Analysis/Brenier/CanonicalPaths.lean",
+      "sha256": "505635ee5a1b419240ee13e2223f5ed10d18af5090f6f66a9d9200bc72ba81b5"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.EndpointEnergy",
+      "path": "vendor/openai/OAI/Analysis/Brenier/EndpointEnergy.lean",
+      "sha256": "1b7807bfafae200316ddc8ceef95829b8f67f530251c68f45e82dc844081c68f"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MaxLimits",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MaxLimits.lean",
+      "sha256": "bcff14a215cdd7f4131ff48caba586620e3395f4e1f3256eab799f41d72c6189"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.NormalizedPaths",
+      "path": "vendor/openai/OAI/Analysis/Brenier/NormalizedPaths.lean",
+      "sha256": "0410094c6a971102dac659664734682de59a42541877f100f015574bdde75f39"
+    },
+    {
+      "module": "BrenierMoment.UniformBase",
+      "path": "BrenierMoment/UniformBase.lean",
+      "sha256": "a1f3bb315eca3b27a7ad0ef92b01947c615498e332a1bc137d8e4f8b4dc38ea3"
+    },
+    {
+      "module": "BrenierMoment.UpperBound",
+      "path": "BrenierMoment/UpperBound.lean",
+      "sha256": "64345afd596d6810e927bfc41edb9ab4064ae51936e274fd98450518b9fedb58"
+    },
+    {
+      "module": "BrenierMoment.TwoSided",
+      "path": "BrenierMoment/TwoSided.lean",
+      "sha256": "7c12702484f7e9ec0560037c46ac2836aaf8ce29ef437a8231094ea48f7c2c16"
+    },
+    {
+      "module": "BrenierMoment.Presentation.Model",
+      "path": "BrenierMoment/Presentation/Model.lean",
+      "sha256": "173f18dfe1014291080cd5778eccf31d0de3518f88bbaa445aa530254f5e5863"
+    },
+    {
+      "module": "BrenierMoment.FCPresentation",
+      "path": "BrenierMoment/FCPresentation.lean",
+      "sha256": "17c6d9d9b6754639f9104a0c09f88dc9202e89ca0d87f935daf252823ff84454"
+    },
+    {
+      "module": "BrenierMoment",
+      "path": "BrenierMoment.lean",
+      "sha256": "3d0ae8ec19920c2823bc9d29beac4851c3d99c46555f476cc172e23caddfce87"
+    },
+    {
+      "module": "BrenierMoment.Audit",
+      "path": "Audit.lean",
+      "sha256": "da4087df4fe0dfdb9fa42d74aadeb95740be57fccd9a52314915d10bcc7b66ce"
+    },
+    {
+      "module": "FCAudit",
+      "path": "FCAudit.lean",
+      "sha256": "49fa0ad8ad8bc6a7ecdef18ab5dbcd35edb7488ecf4b0efbeb8df3ac634aa331"
+    },
+    {
+      "module": "ComparatorChallenges.BrenierMomentStability",
+      "path": "ComparatorChallenges/BrenierMomentStability.lean",
+      "sha256": "7766bd7f7b88423e72877fab45d239ef6ed54bd118c3fa80db1a3ae54a5bfb18"
+    }
+  ],
+  "compiled_module_count": 115,
+  "compiled_upstream_modules_not_imported_by_the_proof": [
+    {
+      "module": "OAI.Analysis.Brenier.ClosedPaths",
+      "path": "vendor/openai/OAI/Analysis/Brenier/ClosedPaths.lean",
+      "sha256": "1eb70b88b8893f1f818c2e4f23682e0dbfcffd53a6363fa9c0eb48c0901041a4"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Coordinates",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Coordinates.lean",
+      "sha256": "06f2fb107ddd31085a84c9117c7101c6d14bf997085833b48fe4c08ad91d42bf"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Cube",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Cube.lean",
+      "sha256": "064457f8253b77c3856ec4860883fde59c6bcd689bb9078da2b027b701b96c02"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MapTransport",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MapTransport.lean",
+      "sha256": "a44799da09056f31f3fef44bea3eb874e135989463cce28a8d7da4b3408463c1"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.MovingBoundary",
+      "path": "vendor/openai/OAI/Analysis/Brenier/MovingBoundary.lean",
+      "sha256": "50b92529b120f9364e22b3185de98de61c869ce05eb76c19b77e00d7462a684a"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.PlaneEnvelopes",
+      "path": "vendor/openai/OAI/Analysis/Brenier/PlaneEnvelopes.lean",
+      "sha256": "13b358d95a92b2b82ea5e844bf87ecc6de54a27c1f7213ab14daf042b7f8e7a0"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SharpMaps",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SharpMaps.lean",
+      "sha256": "0d88e557e32c313640fa3bcc3d2eaf6cab2daecdb75467acd1decce8ae15c082"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SharpOptimality",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SharpOptimality.lean",
+      "sha256": "6a9f0a5b3db72ec8b2d579dbdfba32a352ca4b30f2e3095e780f0314277eb22c"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SharpRectangle",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SharpRectangle.lean",
+      "sha256": "81be345a16534691c09c4471ccff85ad78db44a20492d483206cd16e53d8987b"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SharpSlices",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SharpSlices.lean",
+      "sha256": "aa500cc8658043db5e550bf607946e0f07ba017e070ccfde02ddb826080e8d1f"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SharpTargets",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SharpTargets.lean",
+      "sha256": "967a0e8538d4aa9e89768ebe319392d5880fa022089cd3fca96569dfecfd3595"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Sharpness",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Sharpness.lean",
+      "sha256": "a9deda23207c0af052fd34e896b28c336a81544854eae25554cd767db2947616"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.SliceInterpolation",
+      "path": "vendor/openai/OAI/Analysis/Brenier/SliceInterpolation.lean",
+      "sha256": "cf2c30987ea8f41bce4f25f43f54c6673b5b948ee23e35189ff3ba3d6a0f7afb"
+    },
+    {
+      "module": "OAI.Analysis.Brenier.Stability",
+      "path": "vendor/openai/OAI/Analysis/Brenier/Stability.lean",
+      "sha256": "d268ebfe51e6d2352f63a6872e0683d61b9a3e1297230f5bb2d37fb4eb6d6233"
+    }
+  ],
+  "lean_files_of_this_package_not_in_that_build": [],
+  "modules_with_intentional_sorry": [
+    "ComparatorChallenges.BrenierMomentStability"
+  ],
+  "axiom_audit": {
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "declarations": [
+      {
+        "declaration": "BrenierMoment.moment_stability",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.moment_rate_sharp",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.no_modulus_at_second_moment",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.uniformMeasure_eq_logConcaveSource",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.moment_stability_uniform",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.moment_rate_two_sided",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Presentation.boxSource_eq",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierStability.moment_stability",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierStability.moment_rate_sharp",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierStability.no_modulus_at_second_moment",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Sharp.cell_mass",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Sharp.map_cellMap",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Sharp.isUniqueOptimal_cellMap",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Sharp.wasserstein2_target",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Sharp.mapError_lower",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.Sharp.lintegral_momentWeight_target_le",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.sharp_parameters",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.quadraticTailTerm_transfer",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.integral_quadraticTailTerm_transfer",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.quadraticTail_transfer_of_coupling",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.quadraticTail_le_envelope",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.rate_of_threshold_family",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.rate_of_interpolation",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.clipped_slope_sq_le",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.sum_sq_sub_clip_le",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.AtomicPotentialBound.of_marginal",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.map_dropLast_powerMeasure",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.AtomicPotentialBound.of_tendsto",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.atomicPotentialBound_powerSource",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.atomicPotentialBound_logConcave",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.clipped_slope_sq_le_of_slack",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.line_interpolation",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.sliced_interpolation",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.stripInterpolation_logConcave",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.clipped_interpolation_of_active",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.clipped_plan_comparison",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.isUniqueQuadraticOptimalMap_of_tendsto_active",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.exists_active_pair_of_finite",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.exists_limit_map",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.clipped_estimate_of_limits",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.exists_optimal_map_with_approximation",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.atomicPotentialBound_uniform",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.uniformPotentialBound",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.sq_mapL2Dist_le_of_limits",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.moment_stability_of_goodSource",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.goodSource_logConcave",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.moment_stability_logConcave",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.quadraticTail_le_inv_square_of_fourth_moment",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.p4_bound_from_interpolation",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.FourAtom.activeIndex_spec",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.FourAtom.wasserstein2_sq_tilt",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      {
+        "declaration": "BrenierMoment.FourAtom.fourth_moment_le",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    ],
+    "all_checked_declarations_within_allowed_axioms": true
+  },
+  "fc_axiom_audit": [
+    {
+      "declaration": "BrenierStability.moment_stability",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "declaration": "BrenierStability.moment_rate_sharp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "declaration": "BrenierStability.no_modulus_at_second_moment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "declaration": "BrenierMoment.moment_stability",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "declaration": "BrenierMoment.moment_rate_sharp",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "declaration": "BrenierMoment.no_modulus_at_second_moment",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  ],
+  "complete_statements": [
+    "BrenierMoment.moment_rate_sharp",
+    "BrenierMoment.no_modulus_at_second_moment",
+    "BrenierMoment.moment_stability",
+    "BrenierMoment.moment_stability_uniform",
+    "BrenierMoment.moment_rate_two_sided",
+    "BrenierStability.moment_stability",
+    "BrenierStability.moment_rate_sharp",
+    "BrenierStability.no_modulus_at_second_moment"
+  ],
+  "upstream_per_module_build": {
+    "summary": {
+      "cached": 85,
+      "ok": 5,
+      "fail": 0,
+      "blocked": 0
+    },
+    "success": true,
+    "failed": [],
+    "blocked": []
+  }
+}

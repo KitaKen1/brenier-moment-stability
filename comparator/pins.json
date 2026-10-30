@@ -1,0 +1,33 @@
+{
+  "proof_repository": "KitaKen1/brenier-moment-stability",
+  "proof_commit": null,
+  "proof_commit_status": "pending publication; the proof files are fixed by proof_release_manifest_sha256",
+  "proof_release_manifest": "leanWithoutComparator/sources.json",
+  "proof_release_manifest_sha256": "b359d1f43164bdbbe0ad7b48ccb107bfe97cd0a2965cf7c1cd9907a870874e61",
+  "proof_source_lakefile_sha256": "26292b1d071535841b1c5761fb9b4676647280ba61d7612f5ebd6a1a968daefb",
+  "fc_repository": "google-deepmind/formal-conjectures",
+  "fc_issue": "https://github.com/google-deepmind/formal-conjectures/issues/7197",
+  "fc_target_commit": null,
+  "fc_pr": null,
+  "fc_target_status": "local proposed draft; not submitted",
+  "fc_draft_path": "FClikelean/BrenierMomentStability.lean",
+  "fc_draft_sha256": "edeac5be05b88d599c07a49ac92efe9a1bd503cd83079cbe35f1383921744409",
+  "fc_upstream_toolchain": "leanprover/lean4:v4.33.1",
+  "challenge_kind": "three statements copied from the proposed FC draft with its four inlined helpers expanded to the proved model; compact definitions and statement types checked by Lean rfl; FC import, module/public declarations and review attributes removed",
+  "challenge_sha256": "7766bd7f7b88423e72877fab45d239ef6ed54bd118c3fa80db1a3ae54a5bfb18",
+  "config_sha256": "f11bd0644afbdc8c85ccb581c94e1efebae6989f66744024e487d79e38c5a21f",
+  "solution_sha256": "17c6d9d9b6754639f9104a0c09f88dc9202e89ca0d87f935daf252823ff84454",
+  "definitions_sha256": "173f18dfe1014291080cd5778eccf31d0de3518f88bbaa445aa530254f5e5863",
+  "audit_sha256": "49fa0ad8ad8bc6a7ecdef18ab5dbcd35edb7488ecf4b0efbeb8df3ac634aa331",
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "comparator_commit": "ca04cfc72b550331658ec314bf47685281bfd4bf",
+  "landrun_commit": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4",
+  "lean4export_commit": "076e8e57707e813375e8f9da8bf989799ace9680",
+  "targets": [
+    "BrenierStability.moment_stability",
+    "BrenierStability.moment_rate_sharp",
+    "BrenierStability.no_modulus_at_second_moment"
+  ],
+  "fc_checkout_compatibility": "pending: upstream FC is Lean 4.33.1; this proof is Lean 4.34.1"
+}

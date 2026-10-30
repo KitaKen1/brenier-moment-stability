@@ -1,0 +1,10 @@
+LOCAL_MATCH target=BrenierStability.moment_stability declaration_count=32894 mismatches=0
+LOCAL_MATCH target=BrenierStability.moment_rate_sharp declaration_count=32751 mismatches=0
+LOCAL_MATCH target=BrenierStability.no_modulus_at_second_moment declaration_count=32748 mismatches=0
+'BrenierStability.moment_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierStability.moment_rate_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierStability.no_modulus_at_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierMoment.moment_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierMoment.moment_rate_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BrenierMoment.no_modulus_at_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+LOCAL_SCOPE declaration equality only; Linux sandbox and kernel replay NOT_RUN

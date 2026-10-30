@@ -1,0 +1,11 @@
+{
+  "status": "not_run",
+  "summary": "The complete single file has not been opened in the public Lean4Web server. The link in the README becomes usable once the file is on the default branch of the public repository.",
+  "intended_project": "mathlib-stable",
+  "intended_project_display_name": "Stable Release (v4.34.0 with mathlib, cslib)",
+  "manual_browser_runs": [],
+  "relation_to_pinned_environment": "The pinned Mathlib revision is Mathlib tag v4.34.1, which is tag v4.34.0 plus one commit that changes only lean-toolchain. The server project is labelled v4.34.0; its exact Mathlib commit was not inspected.",
+  "pinned_toolchain": "leanprover/lean4:v4.34.1",
+  "pinned_mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "scope": "The server's projects are not pinned by this repository and are replaced as new releases appear. The local build and CI remain the reproducible checks."
+}
