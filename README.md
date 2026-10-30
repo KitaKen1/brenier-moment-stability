@@ -579,6 +579,7 @@ for CI logs and artifacts expires, readers can inspect the same results in
 [ComparatorLog20261030/40978788813-attempt1](ComparatorLog20261030/40978788813-attempt1/).
 The archive contains the original logs and artifact ZIPs, extracted receipts, API metadata and
 SHA-256 checksums. Each artifact ZIP was checked against its GitHub digest before extraction.
+The archive was added in [commit `ab8cd03a`](https://github.com/KitaKen1/brenier-moment-stability/commit/ab8cd03a24bc5ddd30e0e5c6c9c49ac181afcbdc).
 
 ### Reproduce the verification
 
