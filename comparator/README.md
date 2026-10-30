@@ -7,7 +7,8 @@ The proof build, compact FC-model check, sandboxed Comparator and six target axi
 passed. The separate whole-environment fresh replay is still running; the full workflow is
 not yet recorded as passed. The first attempt built the proof successfully but exposed a missing
 build dependency for the original OpenAI comparison theorem; the CI build target was corrected
-without changing the proof sources. No public `main` CI has been run, and no
+without changing the proof sources. Public `main` CI is being started separately for this release;
+no completed public result is claimed yet. No
 Formal Conjectures PR has been created; the statement was proposed in
 [formal-conjectures issue 7197](https://github.com/google-deepmind/formal-conjectures/issues/7197).
 The setup follows the verification of

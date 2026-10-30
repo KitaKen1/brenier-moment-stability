@@ -1,0 +1,7 @@
+{
+  "repository_url": "https://github.com/KitaKen1/brenier-moment-stability",
+  "proof_commit": "c028b1a002da7ef4bf9177a3b4abcf596a6ab1b3",
+  "lean4web_url": "https://live.lean-lang.org/#project=mathlib-stable&url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Fbrenier-moment-stability%2Fmain%2Flean4web%2FBrenierMomentStabilityLean4Web.lean",
+  "lean4web_project": "mathlib-stable",
+  "hosted_status": "lean4web/hosted-status.json"
+}

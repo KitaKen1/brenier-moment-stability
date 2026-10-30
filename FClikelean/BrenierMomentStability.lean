@@ -72,7 +72,7 @@ theorem original_compact_stability {d : ℕ} (hd : 2 ≤ d) {K Y : Set (Euclidea
 /-- Variant of `original_compact_stability`: log-concave source, one-sided moment bound,
 and moment-dependent rate [Ki26]. -/
 @[category research solved, AMS 49 60,
-    formal_proof using lean4 at "https://github.com/KitaKen1/brenier-moment-stability/blob/COMMIT_OF_THE_PUBLIC_REPOSITORY/lean/BrenierMoment/FCPresentation.lean#L198"]
+    formal_proof using lean4 at "https://github.com/KitaKen1/brenier-moment-stability/blob/c028b1a002da7ef4bf9177a3b4abcf596a6ab1b3/lean/BrenierMoment/FCPresentation.lean#L198"]
 theorem moment_stability {d : ℕ} {U : Set (EuclideanSpace ℝ (Fin d))} (hU : IsOpen U)
     (hUb : Bornology.IsBounded U) (hUn : U.Nonempty) {V : EuclideanSpace ℝ (Fin d) → ℝ} (hV : ConvexOn ℝ U V)
     {p β : ℝ} (hp : 2 ≤ p) (hβ : 0 ≤ β) :
@@ -93,7 +93,7 @@ theorem moment_stability {d : ℕ} {U : Set (EuclideanSpace ℝ (Fin d))} (hU : 
 
 /-- The modulus is sharp, already for four-atom targets and a uniform box source [Ki26]. -/
 @[category research solved, AMS 49 60,
-    formal_proof using lean4 at "https://github.com/KitaKen1/brenier-moment-stability/blob/COMMIT_OF_THE_PUBLIC_REPOSITORY/lean/BrenierMoment/FCPresentation.lean#L217"]
+    formal_proof using lean4 at "https://github.com/KitaKen1/brenier-moment-stability/blob/c028b1a002da7ef4bf9177a3b4abcf596a6ab1b3/lean/BrenierMoment/FCPresentation.lean#L217"]
 theorem moment_rate_sharp (d : ℕ) {p β : ℝ} (hp : 2 ≤ p) (hβ : 0 ≤ β) :
     let B : Set (EuclideanSpace ℝ (Fin (d + 2))) := {x | x 0 ∈ Set.Icc 0 1 ∧ ∀ i, x i ∈ Set.Icc (-1) 1}
     let ρ : Measure (EuclideanSpace ℝ (Fin (d + 2))) := (volume B)⁻¹ • volume.restrict B
@@ -111,7 +111,7 @@ theorem moment_rate_sharp (d : ℕ) {p β : ℝ} (hp : 2 ≤ p) (hβ : 0 ≤ β)
 
 /-- A second-moment bound alone gives no modulus of continuity for Brenier maps [Ki26]. -/
 @[category research solved, AMS 49 60,
-    formal_proof using lean4 at "https://github.com/KitaKen1/brenier-moment-stability/blob/COMMIT_OF_THE_PUBLIC_REPOSITORY/lean/BrenierMoment/FCPresentation.lean#L230"]
+    formal_proof using lean4 at "https://github.com/KitaKen1/brenier-moment-stability/blob/c028b1a002da7ef4bf9177a3b4abcf596a6ab1b3/lean/BrenierMoment/FCPresentation.lean#L230"]
 theorem no_modulus_at_second_moment (d : ℕ) {ε : ℝ} (hε : 0 < ε) :
     let B : Set (EuclideanSpace ℝ (Fin (d + 2))) := {x | x 0 ∈ Set.Icc 0 1 ∧ ∀ i, x i ∈ Set.Icc (-1) 1}
     let ρ : Measure (EuclideanSpace ℝ (Fin (d + 2))) := (volume B)⁻¹ • volume.restrict B

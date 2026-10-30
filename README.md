@@ -391,8 +391,9 @@ FC-model comparison, sandboxed Lean Comparator and six target axiom reports pass
 The separate whole-environment fresh replay is still running; the full workflow is not yet
 recorded as passed. The tested proof sources are unchanged.
 
-**Not run yet:** public GitHub Actions, the complete standalone verification workflows and the
-hosted Lean4Web run. FC checkout compatibility is still pending; see the
+**Public verification:** the public workflow is being started for this release; no completed public
+CI result is claimed here. The complete standalone verification workflows and the hosted Lean4Web
+run remain unchecked. FC checkout compatibility is still pending; see the
 [Appendix](#appendix-verification-by-lean-comparator-on-github-ci-runner).
 <!-- END VERIFICATION STATUS -->
 
@@ -550,9 +551,9 @@ Lean Comparator and GitHub CI enable the following:
 
 ### Certification Within 90 days: CI results
 
-The verification workflow has not been run on the public repository yet, so there is no CI
-result to inspect. This section will link the public run, with its date and tested commit, once
-it exists.
+The public verification workflow is being started for this release. Its status is visible in
+[GitHub Actions](https://github.com/KitaKen1/brenier-moment-stability/actions/workflows/comparator.yml). A completed public result is not claimed until all required jobs pass;
+the tested commit and archived receipts will be recorded separately.
 
 Readers can then check the Comparator execution and the axiom audit in the CI logs for 90 days.
 In particular, `#print axioms` should report the three axioms for the three targets:

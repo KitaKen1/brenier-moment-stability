@@ -28,7 +28,7 @@ This is private-run evidence; public CI and an upstream FC checkout remain separ
 | Local Comparator precheck | `python3 comparator/local-precheck.py --receipt-dir DIR`; local run of its comparison: `lean/verification/local-comparison.log` | Declaration equality of challenge and solution with the pinned Comparator's rules, and the solution's axioms; no sandbox, not a Comparator run | The comparison `comparator/LocalCompare.lean` was run with `lean --run` on the module-by-module build: no mismatch. The script, which builds with Lake, has not been run |
 | Lean Comparator | `.github/workflows/comparator.yml`, `comparator/run-check.sh`; private comparator artifact | Pinned Comparator in a sandbox on a fresh GitHub runner: the three targets, permitted axioms and kernel acceptance, followed by six axiom reports | Passed in private run 40975464312 on 30 October 2026 |
 | Whole-environment fresh replay | `.github/workflows/comparator.yml`, replay job | `lake env leanchecker --fresh BrenierMoment` | Running in the private run; no success claim yet |
-| GitHub Actions | `.github/workflows/` | Manual workflows; success requires a hosted run | Private build and Comparator jobs passed; whole workflow awaits fresh replay. Public workflows have not run |
+| GitHub Actions | `.github/workflows/` | Manual workflows; success requires a hosted run | Private build and Comparator jobs passed; whole workflow awaits fresh replay. Public verification is being started separately; no completed public result is claimed |
 | Hosted Lean4Web | `lean4web/hosted-status.json` | Manual browser run on the public server | Not run |
 | Formal Conjectures submission | `FClikelean/README.md` | Draft; compile and lint inside the destination checkout before submitting | Not done |
 
